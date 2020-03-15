@@ -75,3 +75,5 @@ def train_ch3(net, train_iter, test_iter, loss, num_epochs, batch_size,
               % (epoch + 1, train_l_sum / n, train_acc_sum / n, test_acc))
 
 train_ch3(net, train_iter, test_iter, loss, num_epochs, batch_size, params, lr)
+
+print('nihao')
